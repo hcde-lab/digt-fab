@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<title> Sun Light </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card w3-right-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://rowran.github.io/HCDE598/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <!--
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 4</a>
+      -->
+  </div>
+
+  
+  <!-- Navbar on small screens   -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="https://rowran.github.io/HCDE598/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+  <!--  <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+
+    -->
+  </div>
+
+
+
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-black w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Sun Light</h1>
+  <p class="w3-xlarge">Final Digital Fabrication Assignment </p>
+  <!--<button class="w3-button w3-white w3-padding-large w3-large w3-margin-top">Get Started</button> -->
+</header>
+
+
+
+
+
+
+  
+
+
+
+<!-- Grid Template 
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Lorem Ipsum</h1>
+      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+
+      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+    </div>
+  </div>
+</div>
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>Sun Light Overview: </h1>
+        <h5 class="w3-padding-32">
+            <li> Synthesis / Define </li>
+            <li> Ideation / Develop </li>
+            <li> Test / Implementation / Deliver </li>
+            <li> Reflection </li>
+          </h5>
+  
+        <p class="w3-text-grey">            
+          <p>
+                  
+                  </p>
+      </div>
+  
+      <div class="w3-third w3-center">
+          <img src="Images/A8/Resized_20190605_174815_1362.jpg" width=400>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Grid -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <i class="fa fa-anchor w3-padding-64 w3-text-black w3-margin-right"></i>
+      </div>
+  
+      <div class="w3-twothird">
+        <h1>  Synthesis / Define </h1>
+        <h5 class="w3-padding-32">
+            Design Prompt Criteria: <br>
+            <li> Criteria #1: An artistic wood box with a 3D printed moveable mechanism that opens to reveals a Vitamin D light. <br> </li>
+            <li> Criteria #2: Follow "Final Project" protocol as described in Assignment 7 </li> 
+            <li> Criteria #3: Technical Documentation (Bill of Materials etc...)  </li>
+            <li> Criteria #4: Must use a combination of at least 4 techniques in your final </li> 
+            <ul> Technique #1: Moveable Parts  </ul>
+            <ul> Technique #2: Onshape/Fusion 360 </ul>
+            <ul> Technique #3: Stock Parts   </ul>
+            <ul> Technique #4: Laser Cutter </ul>
+            <ul> Technique #5: 3D Printed</ul>
+			
+			<li> Learning Objective: Better understand the interconnected moving mechanisms of the 3D printed piece. </li>
+        </h5>
+  
+        <p class="w3-text-grey">               
+                       
+
+              
+            </p>
+          </div>    
+      </div>
+   </div>
+ 
+          
+          <!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1>Ideation / Develop</h1>
+        <h5 class="w3-padding-32">
+        
+			
+			Problem: Due to lack of sunlight, millions of people suffer from Vitamin D deficiency each year. 
+			<br>
+			<br>
+
+			Promise: A LED lamp will help users provide and supplement Vitamin D for their body. 
+			<br>
+<br>
+
+			Offering: A high powered LED light (that produces Ultraviolet B rays) encased in an artistic box.
+			
+			<br>
+
+			
+			
+			
+			
+			
+			<p> <b>  Prototype 1.0 </b></p>
+			<li> Create a Laser Cut Press fit box (designed to hold a Vitamin D light) in mind using files for the laser cutter from <a href="https://www.makercase.com/"> Makercase  </a> </li> 
+			<li> Use Fusion 360 to 3D Print the Moveable Iris model parts sourced from <a href="https://www.thingiverse.com/thing:3159122"> Thingiverse </a> </li>
+			<li>Attach the 3D printed piece to the Laser Cut Box with stock parts like a screw </li>
+			
+			<p> <b> Prototype 2.0 </b></p>
+			<li>Create my own Moveable Iris models using Fusion 360 </li>
+		  	<li>Cut and raster an abstract geometric pattern with the laser cutter to match form with function </li>
+			<li> Explore materials types for the laser cut box </li>
+        </h5>
+  
+        <p class="w3-text-grey">            
+        
+		  </p>
+      </div>
+  
+      <div class="w3-third w3-right w3-padding-64">
+          <img src="Images/A8/Mandala.jpg" width="400"> 
+      </div>
+    </div>
+  </div>
+
+		
+		  <!-- Fourth Grid -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <i class="w3-padding-64 w3-text-black w3-margin-right"></i>
+      </div>
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/A8/Prototype 1.0.jpg" alt="" style="width:100%" class="w3-hover-opacity" rotate="90">
+          </div>
+      <div class="w3-twothird">
+        <h1>  Test / Implementation / Deliver </h1>
+        <h5 class="w3-padding-32">
+"Fail Fast. Fail Cheap." was my motto with this project. <br>
+Utilizing online resources, I used <a href="https://www.thingiverse.com/thing:3159122"> Thingiverse </a> and <a href="https://www.makercase.com/"> Makercase  </a> to produce a v.5 prototype identify apparent problems. This allowed me to regularly iterate through problems while simultaneously achieving Prototype 1.0 and 2.0 as described in assignment 7. <br>
+<br>
+ 
+        </h5>
+  
+        <p class="w3-text-grey">               
+               The Instructions below describe how to convert a Thingiverse file into a useable model in Fusion 360. 
+              
+            </p>
+          </div>  
+		
+		
+      </div>
+	 
+   </div>
+ 
+		
+    <!-- Row - Three Images    -->
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    
+      <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/A8/Mesh to Brep.JPG" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                  
+              <p><b>  </b></p>
+              <p>
+                Process Step #1: After importing Thingiverse file into Fusion 360, use the "Mesh to BRep" tool convert the mesh file into a body. 
+              </p>
+              
+            </div>
+          </div>
+      
+      
+              
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="Images/A8/Break Link.JPG" alt="" style="width:400" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+                 Process Step #2: Use either the "Project" or "Offset" tool to create an outline onto a new sketch. 
+              </p>
+          
+          </div>
+          </div>
+          
+          
+          <div class="w3-third w3-container">
+            <img src="Images/A8/Control Point Spline.JPG" alt="Filler" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+                 Process Step #3:
+                  To create one cohesive form that can be extruded on the new sketch use "Control Point Spline" to connect each anchor point. 
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+    
+<!--  </div> -->
+<!-- Fifth Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1> Problems </h1>
+        <h5 class="w3-padding-32">
+            A lot of things went wrong from the laser cutter kerf loosening the press fit parts to the 3D printers have broken or the printed parts snapping. 
+          </h5>
+  
+        <p class="w3-text-grey">            
+
+               Considering how many things could have gone wrong, a lot was avoided.
+                  </p>
+      </div>
+  
+      <div class="w3-third w3-center">
+          <img src="Images/A8/20190530_204126.jpg" alt="" width="400">
+      </div>
+    </div>
+  </div>
+     
+		  <!-- Fourth Grid 
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <i class="w3-padding-64 w3-text-black w3-margin-right"></i>
+      </div>
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/A6/Tool Change Visual.JPG" alt="" style="width:100%" class="w3-hover-opacity">
+          </div>
+      <div class="w3-twothird">
+        <h1>  Synthesis / Define </h1>
+        <h5 class="w3-padding-32">
+            Design Prompt Criteria: <br>
+            <li> Criteria #1:  Design and fabricate a mold in silicone. </li>
+            <li> Criteria #2:  Use the mold to cast at least 4 identical parts (e..g in plaster). </li> 
+            <li> Criteria #3:  Design your master part in CAD first, then design your mold, then design a mold to cast your mold in.   </li>
+            <li> Criteria #4:  Fabricate your mold's molds either by CNC milling machinable wax or by 3D printing. </li>
+        </h5>
+  
+        <p class="w3-text-grey">               
+                       
+
+              
+            </p>
+          </div>  
+		
+		
+      </div>
+	 
+   </div>
+ --> 
+		
+    <!--Image Row 2 - Three Images    -->
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    
+      <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/A8/20190530_201445.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                   
+              <p><b>  </b></p>
+              <p>
+                Many 3D Printing problems occured from misprinted pieces to thin pieces getting snapped off.
+              </p>
+              
+            </div>
+          </div>
+      
+      
+              
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="Images/A8/Burnt Leaves.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+                Initial testing with the Laser Cutter ran flawlessly so I was shocked to find the intricate parts of the leaves to burn up. 
+				  
+              </p>
+          
+          </div>
+          </div>
+          
+          
+          <div class="w3-third w3-container">
+            <img src="Images/A8/Material and Laser.jpg" alt="Filler" style="width:60%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+               Laser Cutter would burn through some pieces of wood while burning through similar material pieces at the same rate. (3 Speed, 100 Power, 10 Frequency)
+                  
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+
+  <!-- Sixth  Grid -->
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+        <i class="w3-padding-64 w3-text-black w3-margin-right"></i>
+      </div>
+        <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/A8/Moving Mechanism.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+          </div>
+      <div class="w3-twothird">
+        <h1>  Solutions </h1>
+        <h5 class="w3-padding-32">
+        In order to solve my problems, I tested and explored different variations to create solutions that are optimized for an ideal outcome. For example, I created a custom model so that i can easily adjust the model's geometric variables and relationships. 
+
+        </h5>
+  
+        <p class="w3-text-grey">               
+                       
+
+              
+            </p>
+          </div>  
+		
+		
+      </div>
+	 
+   </div>
+	  
+	  
+	      <!--Image Row #3 - Three Images    -->
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    
+      <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/A8/Moving Mechanism 2.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                   
+              <p><b>  </b></p>
+              <p>
+               I learned how to create custom models in Fusion 360 then used the custom models for rapid prototyping testing  the relationships using 3D printing. 
+              </p>
+              
+            </div>
+          </div>
+      
+      
+              
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="Images/A8/20190531_235551.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+                 Tested variation of laser cutter setting to determine which one will cut smoothest. <br>
+				(11 Speed, 85 Power, 10 Frequency)
+              </p>
+          
+          </div>
+          </div>
+          
+          
+          <div class="w3-third w3-container">
+            <img src="Images/A8/Custom Model.jpg" alt="Filler" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+                 Attempted to expand the model such that the holes align with the box and could be screwed together. 
+                  
+              </p>
+                
+            </div>
+          </div>
+        </div>
+      </div> 
+
+<!-- Seventh Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1> Outcome </h1>
+        <h5 class="w3-padding-32">
+            
+		In the end, I was able to create and assemble Prototype 2.0 as described in assignment 7. The prototype is a wooden box that encases a LED light and is an aestheticly pleasant way to absorb the UVB rays which your body can turn into Vitamin D.
+			
+          </h5>
+  
+        <p class="w3-text-grey">            
+      <h3>
+		  </h3>
+                <p> 
+    
+                  
+                  </p>
+      </div>
+  
+      <div class="w3-third w3-center">
+          <img src="Images/A8/Resized_20190605_174750_2874.jpg" alt="" width="400">
+      </div>
+    </div>
+  </div>
+		
+    <!--Image Row 3 - Three Images    -->
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    
+      <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/A8/Resized_20190605_172451_2766.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                   
+              <p><b>  </b></p>
+              <p>
+    Used glue and clamps so that the box could maintain its form while holding the weight of the light. I believe in the next iteration, I could adjust the the kerf settings to .003 to minimize this issue. 
+              </p>
+              
+            </div>
+          </div>
+      
+      
+              
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="Images/A8/Resized_20190605_173527_2314.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+                The Mechanical Iris opens and closes manually. The button on the right can be tapped to turn on the light.
+              </p>
+          
+          </div>
+          </div>
+          
+          
+          <div class="w3-third w3-container">
+            <img src="Images/A8/Resized_20190605_173658_1676.jpg" alt="Filler" style="width:75%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+               I used tape to protect the exposed wood from burn marks and soot stains that occur during the laser cutting process
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+
+
+
+                
+                
+               
+<!-- Eigth Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h1> Reflection </h1>
+        <h5 class="w3-padding-32">
+<br>
+			Overall this was an excellent project that pushed me to learn more about advanced digital fabrication techniques, such mechanical design, which allowed me to complete my prototype deliverables and achieve my Learning Objective as described in assignment 7. 
+<br><br>
+
+
+			Areas of future research could focus on refining the UX of the Mechanical Iris so that feels comfortable to slide open. This would be done by adjusting the door material thickness as well as the 
+			<br><br>
+
+
+			
+		Upon researching this topic further I could not find sufficient evidence that convinced me that LEDs lights release Ultraviolet B rays to help your body release Vitamin D. Further research would be required. 
+			
+          </h5>
+  
+        <p class="w3-text-grey">            
+      <h3>Attribution: </h3>
+                Joshua, Angel, Dhwani Vekaria, Julie Do, Peter, Andrew, Nicole, Kimberly, Cindy Feng, Corynne, helped each other out with best practices.  <br>
+    <h3>Source files </h3>
+                    Click the Items below to acces the Source Files
+                <br>
+                <li> <a href="https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/"> Adding Screws to 3D Printed 			pieces   </a> </li>
+                <li> <a href="https://www.mcmaster.com/"> McMaster Tool Guide </a> </li>
+                <li> <a href="https://www.thingiverse.com/thing:3159122"> Creative Commons - Public Domain Dedication
+						80MM FAN COVER IRIS STYLE by UKCD is licensed under the Creative Commons - Public Domain Dedication license. </a> </li>
+             	<li> <a href="https://www.makercase.com/"> Makercase  </a></li>
+                <li> <a href="https://www.vecteezy.com/vector-art/140014-free-vector-symbol"> Free Mandala Vector Design by: Vecteezy! </a> </li> 
+		  		<li> <a href="Images/A8/Final 7.5 x 11.4 x 1.5 w kerf .003 v2.svg"> Illustrator - Mandala  </a> </li> 
+                <li> <a href="https://a360.co/2InavtC"> Fusion 360 - Iris Door  </a> </li> 
+		  		<li> <a href="https://a360.co/2QPgwTF"> Fusion 360 - Iris Base  </a> </li> 
+		  		<li> <a href="https://a360.co/2HYuQpS"> Fusion 360 - Iris Blade  </a> </li> 
+		  		<li> <a href="LS 3D Mold.gx"> Iris Gcode </a> </li> 
+                <br>
+                  
+                  </p>
+      </div>
+  
+      <div class="w3-third w3-center">
+          <img src="Images/A8/Resized_20190605_174815_1362.jpg" alt="" width="400">
+      </div>
+    </div>
+  </div>
+		
+    <!--Image Row 4 - Three Images    -->
+  <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    
+      <div class="w3-row-padding">
+          <div class="w3-third w3-container w3-margin-bottom">
+              <img src="Images/3D Printer Settings.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+                   
+              <p><b>  </b></p>
+              <p>
+                3D Printer Settings <br>
+				Nozzle Temp: 235 Degrees <br>
+				Platform Temp: 60 Degrees 
+              </p>
+              
+            </div>
+          </div>
+      
+      
+              
+          <div class="w3-third w3-container w3-margin-bottom">
+            <img src="Images/A8/20190531_234523.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+                Laser Cutter <br> 
+                Original Setting: <br> 
+                
+               <li> Speed = 3 <br></li>
+                <li> Power = 100 <br></li>
+                <li> Frequency = 10 <br> </li>
+<br>
+
+                Final Settings: <br>
+                <li> Speed = 11 <br></li>
+                <li>Power = 85 <br></li>
+                <li>Frequency = 10 <br></li>
+                <br> 
+                Offset with .003 Kerf 
+
+              </p>
+          
+          </div>
+          </div>
+          
+          
+          <div class="w3-third w3-container">
+            <img src="Images/A8/Bill of Materials.JPG" alt="Filler" style="width:100%" class="w3-hover-opacity">
+            <div class="w3-container w3-white">
+              <p><b></b></p>
+              <p>
+               
+                 <a href="https://docs.google.com/spreadsheets/d/19d6AnVHyiitxuFSeobUEHiAMtP1K1kiMzeZpeI1-r1A/edit?usp=sharing" > 
+                  Bill of Materials 
+                 </a>
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </div> 
+
+
+
+                
+                
+   
+         
+                    
+
+
+                    
+<!-- Footer 
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+-->
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
